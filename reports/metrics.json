@@ -1,0 +1,440 @@
+{
+  "scene": "fern",
+  "image_size": [
+    84,
+    112
+  ],
+  "feature_width": 760,
+  "initial_points": 900,
+  "max_points": 900,
+  "steps_per_fit": 500,
+  "seeds": [
+    17,
+    29,
+    41
+  ],
+  "threads": 4,
+  "train_images": [
+    "IMG_4026.JPG",
+    "IMG_4027.JPG",
+    "IMG_4029.JPG",
+    "IMG_4030.JPG",
+    "IMG_4031.JPG",
+    "IMG_4032.JPG",
+    "IMG_4034.JPG",
+    "IMG_4035.JPG",
+    "IMG_4036.JPG",
+    "IMG_4037.JPG",
+    "IMG_4039.JPG",
+    "IMG_4040.JPG",
+    "IMG_4041.JPG",
+    "IMG_4042.JPG",
+    "IMG_4044.JPG",
+    "IMG_4045.JPG"
+  ],
+  "test_images": [
+    "IMG_4028.JPG",
+    "IMG_4033.JPG",
+    "IMG_4038.JPG",
+    "IMG_4043.JPG"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "pytorch": "2.7.1+cpu",
+    "opencv": "4.11.0",
+    "pycolmap": "4.2.1",
+    "numpy": "2.5.4"
+  },
+  "nearest_training_view": {
+    "views": [
+      {
+        "image": "IMG_4028.JPG",
+        "psnr_db": 16.745354715421755,
+        "ssim": 0.3529861867427826
+      },
+      {
+        "image": "IMG_4033.JPG",
+        "psnr_db": 19.663753563658805,
+        "ssim": 0.5788127779960632
+      },
+      {
+        "image": "IMG_4038.JPG",
+        "psnr_db": 14.405952970209379,
+        "ssim": 0.18325594067573547
+      },
+      {
+        "image": "IMG_4043.JPG",
+        "psnr_db": 19.35304491027026,
+        "ssim": 0.5850496888160706
+      }
+    ],
+    "psnr_db": 17.54202653989005,
+    "ssim": 0.42502614855766296,
+    "source_images": [
+      "IMG_4027.JPG",
+      "IMG_4037.JPG",
+      "IMG_4032.JPG",
+      "IMG_4044.JPG"
+    ]
+  },
+  "initial_splats": {
+    "views": [
+      {
+        "image": "IMG_4028.JPG",
+        "psnr_db": 12.982435539109932,
+        "ssim": 0.21388237178325653
+      },
+      {
+        "image": "IMG_4033.JPG",
+        "psnr_db": 13.19399875838229,
+        "ssim": 0.22505724430084229
+      },
+      {
+        "image": "IMG_4038.JPG",
+        "psnr_db": 13.014696907259742,
+        "ssim": 0.20977070927619934
+      },
+      {
+        "image": "IMG_4043.JPG",
+        "psnr_db": 13.266818281122992,
+        "ssim": 0.22790516912937164
+      }
+    ],
+    "psnr_db": 13.114487371468739,
+    "ssim": 0.21915387362241745
+  },
+  "trained": {
+    "isotropic": {
+      "runs": [
+        {
+          "seed": 17,
+          "optimization_seconds": 23.028653284999564,
+          "training_trace": [
+            {
+              "step": 100,
+              "mean_training_loss": 0.10027785278856755
+            },
+            {
+              "step": 200,
+              "mean_training_loss": 0.06539050869643688
+            },
+            {
+              "step": 300,
+              "mean_training_loss": 0.056810412481427194
+            },
+            {
+              "step": 400,
+              "mean_training_loss": 0.053551377020776274
+            },
+            {
+              "step": 500,
+              "mean_training_loss": 0.05099924311041832
+            }
+          ],
+          "views": [
+            {
+              "image": "IMG_4028.JPG",
+              "psnr_db": 22.27443880979866,
+              "ssim": 0.6954665780067444
+            },
+            {
+              "image": "IMG_4033.JPG",
+              "psnr_db": 23.195580068602197,
+              "ssim": 0.7207133173942566
+            },
+            {
+              "image": "IMG_4038.JPG",
+              "psnr_db": 22.3497062374313,
+              "ssim": 0.7053674459457397
+            },
+            {
+              "image": "IMG_4043.JPG",
+              "psnr_db": 21.950092837279335,
+              "ssim": 0.6782630085945129
+            }
+          ],
+          "psnr_db": 22.442454488277875,
+          "ssim": 0.6999525874853134
+        },
+        {
+          "seed": 29,
+          "optimization_seconds": 23.03346963900003,
+          "training_trace": [
+            {
+              "step": 100,
+              "mean_training_loss": 0.10129302099347115
+            },
+            {
+              "step": 200,
+              "mean_training_loss": 0.06570524480193854
+            },
+            {
+              "step": 300,
+              "mean_training_loss": 0.05704686410725117
+            },
+            {
+              "step": 400,
+              "mean_training_loss": 0.053140376694500446
+            },
+            {
+              "step": 500,
+              "mean_training_loss": 0.05057337157428265
+            }
+          ],
+          "views": [
+            {
+              "image": "IMG_4028.JPG",
+              "psnr_db": 22.15128757510613,
+              "ssim": 0.6951451897621155
+            },
+            {
+              "image": "IMG_4033.JPG",
+              "psnr_db": 22.894365343166164,
+              "ssim": 0.718815803527832
+            },
+            {
+              "image": "IMG_4038.JPG",
+              "psnr_db": 22.49415672988542,
+              "ssim": 0.7114629149436951
+            },
+            {
+              "image": "IMG_4043.JPG",
+              "psnr_db": 22.19409385443001,
+              "ssim": 0.6845768094062805
+            }
+          ],
+          "psnr_db": 22.43347587564693,
+          "ssim": 0.7025001794099808
+        },
+        {
+          "seed": 41,
+          "optimization_seconds": 21.865862290000223,
+          "training_trace": [
+            {
+              "step": 100,
+              "mean_training_loss": 0.09932212755084038
+            },
+            {
+              "step": 200,
+              "mean_training_loss": 0.06572744939476252
+            },
+            {
+              "step": 300,
+              "mean_training_loss": 0.05685573142021894
+            },
+            {
+              "step": 400,
+              "mean_training_loss": 0.05316883932799101
+            },
+            {
+              "step": 500,
+              "mean_training_loss": 0.05066125568002462
+            }
+          ],
+          "views": [
+            {
+              "image": "IMG_4028.JPG",
+              "psnr_db": 22.31579519075746,
+              "ssim": 0.703155517578125
+            },
+            {
+              "image": "IMG_4033.JPG",
+              "psnr_db": 22.8678748912133,
+              "ssim": 0.7184156179428101
+            },
+            {
+              "image": "IMG_4038.JPG",
+              "psnr_db": 22.09060710009844,
+              "ssim": 0.70074063539505
+            },
+            {
+              "image": "IMG_4043.JPG",
+              "psnr_db": 21.79994176892489,
+              "ssim": 0.6818339824676514
+            }
+          ],
+          "psnr_db": 22.268554737748524,
+          "ssim": 0.7010364383459091
+        }
+      ],
+      "psnr_db": {
+        "mean": 22.38149503389111,
+        "std": 0.07994492579593118
+      },
+      "ssim": {
+        "mean": 0.7011630684137344,
+        "std": 0.0010438973558147906
+      },
+      "optimization_seconds": {
+        "mean": 22.64266173799994,
+        "std": 0.5492836766346771
+      }
+    },
+    "anisotropic": {
+      "runs": [
+        {
+          "seed": 17,
+          "optimization_seconds": 24.26704916699964,
+          "training_trace": [
+            {
+              "step": 100,
+              "mean_training_loss": 0.09602927692234516
+            },
+            {
+              "step": 200,
+              "mean_training_loss": 0.0578036841750145
+            },
+            {
+              "step": 300,
+              "mean_training_loss": 0.04859389703720808
+            },
+            {
+              "step": 400,
+              "mean_training_loss": 0.04469805534929037
+            },
+            {
+              "step": 500,
+              "mean_training_loss": 0.041204964332282545
+            }
+          ],
+          "views": [
+            {
+              "image": "IMG_4028.JPG",
+              "psnr_db": 23.38710527841712,
+              "ssim": 0.7777083516120911
+            },
+            {
+              "image": "IMG_4033.JPG",
+              "psnr_db": 24.18845313086246,
+              "ssim": 0.8009078502655029
+            },
+            {
+              "image": "IMG_4038.JPG",
+              "psnr_db": 23.853452689987744,
+              "ssim": 0.8023738265037537
+            },
+            {
+              "image": "IMG_4043.JPG",
+              "psnr_db": 23.220482035830436,
+              "ssim": 0.7623999118804932
+            }
+          ],
+          "psnr_db": 23.662373283774443,
+          "ssim": 0.7858474850654602
+        },
+        {
+          "seed": 29,
+          "optimization_seconds": 24.08513637299984,
+          "training_trace": [
+            {
+              "step": 100,
+              "mean_training_loss": 0.09721322685480117
+            },
+            {
+              "step": 200,
+              "mean_training_loss": 0.058377654664218424
+            },
+            {
+              "step": 300,
+              "mean_training_loss": 0.04890032939612866
+            },
+            {
+              "step": 400,
+              "mean_training_loss": 0.04410297028720379
+            },
+            {
+              "step": 500,
+              "mean_training_loss": 0.040811045281589034
+            }
+          ],
+          "views": [
+            {
+              "image": "IMG_4028.JPG",
+              "psnr_db": 23.416802323950293,
+              "ssim": 0.7772729396820068
+            },
+            {
+              "image": "IMG_4033.JPG",
+              "psnr_db": 24.11238700031982,
+              "ssim": 0.7982611060142517
+            },
+            {
+              "image": "IMG_4038.JPG",
+              "psnr_db": 24.190159345174763,
+              "ssim": 0.8088464736938477
+            },
+            {
+              "image": "IMG_4043.JPG",
+              "psnr_db": 23.732557266480807,
+              "ssim": 0.7755628824234009
+            }
+          ],
+          "psnr_db": 23.862976483981424,
+          "ssim": 0.7899858504533768
+        },
+        {
+          "seed": 41,
+          "optimization_seconds": 24.888407901999926,
+          "training_trace": [
+            {
+              "step": 100,
+              "mean_training_loss": 0.09530229710042476
+            },
+            {
+              "step": 200,
+              "mean_training_loss": 0.058058112747967246
+            },
+            {
+              "step": 300,
+              "mean_training_loss": 0.04860676683485508
+            },
+            {
+              "step": 400,
+              "mean_training_loss": 0.04465988904237747
+            },
+            {
+              "step": 500,
+              "mean_training_loss": 0.04158329714089632
+            }
+          ],
+          "views": [
+            {
+              "image": "IMG_4028.JPG",
+              "psnr_db": 23.56017198625267,
+              "ssim": 0.7742775082588196
+            },
+            {
+              "image": "IMG_4033.JPG",
+              "psnr_db": 24.033603302682383,
+              "ssim": 0.789823055267334
+            },
+            {
+              "image": "IMG_4038.JPG",
+              "psnr_db": 23.418398466591523,
+              "ssim": 0.7865142822265625
+            },
+            {
+              "image": "IMG_4043.JPG",
+              "psnr_db": 22.872851503089112,
+              "ssim": 0.7539812326431274
+            }
+          ],
+          "psnr_db": 23.47125631465392,
+          "ssim": 0.7761490195989609
+        }
+      ],
+      "psnr_db": {
+        "mean": 23.66553536080326,
+        "std": 0.15993471962615238
+      },
+      "ssim": {
+        "mean": 0.7839941183725992,
+        "std": 0.005798890589131889
+      },
+      "optimization_seconds": {
+        "mean": 24.413531147333135,
+        "std": 0.3439031019026052
+      }
+    }
+  }
+}
